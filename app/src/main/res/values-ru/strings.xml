@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_description">Заставляет приложения доверять пользовательским корневым сертификатам по умолчанию на Android 7.0+</string>
+</resources>

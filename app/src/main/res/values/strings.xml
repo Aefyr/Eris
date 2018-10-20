@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Eris</string>
+    <string name="app_name" translatable="false">Eris</string>
+
+    <string name="module_description">Forces apps to trust user root certificates by default on Android 7.0+</string>
 </resources>
