@@ -2,4 +2,9 @@
     <string name="app_name" translatable="false">Eris</string>
 
     <string name="module_description">Forces apps to trust user root certificates by default on Android 7.0+</string>
+
+    <string name="mode_whitelist">Mode: Affect selected apps</string>
+    <string name="mode_blacklist">Mode: Don\'t affect selected apps</string>
+    <string name="tap_to_toggle">Tap to toggle</string>
+    <string name="error_permissions_denied">Eris requires storage permission in order to use configuration.\n\nBy default Eris affects all apps.</string>
 </resources>

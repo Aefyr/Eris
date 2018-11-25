@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorAdaptiveIconBackground">#141414</color>
+
+    <color name="colorPureWhite">#ffffff</color>
+    <color name="colorBasicallyBlack">#212121</color>
+    <color name="colorFadingGray">#757575</color>
+    <color name="colorLightGray">#e0e0e0</color>
+    <color name="colorAccent">#ff2714</color>
 </resources>

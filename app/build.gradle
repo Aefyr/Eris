@@ -4,10 +4,11 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.aefyr.eris"
-        minSdkVersion 24
-        targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion 23
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 23
+        versionCode 2
+        versionName "1.1"
     }
     buildTypes {
         release {
@@ -15,9 +16,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha2'
     compileOnly 'de.robv.android.xposed:api:82'
+    implementation 'androidx.cardview:cardview:1.0.0'
 }

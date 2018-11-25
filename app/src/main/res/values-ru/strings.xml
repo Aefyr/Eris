@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="module_description">Заставляет приложения доверять пользовательским корневым сертификатам по умолчанию на Android 7.0+</string>
+
+    <string name="mode_whitelist">Режим: Вмешиваться в выбранные программы</string>
+    <string name="mode_blacklist">Режим: Не вмешиваться в выбранные программы</string>
+    <string name="tap_to_toggle">Нажмите для переключения</string>
+    <string name="error_permissions_denied">Eris необходимо разрешение на доступ к памяти для работы с конфигурацией\n\nПо умолчанию Eris будет влиять на все приложения</string>
+
 </resources>
